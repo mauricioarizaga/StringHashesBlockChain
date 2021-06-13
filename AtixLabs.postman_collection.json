@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "c23a1e1b-aee4-48a7-851b-c71aaac55a7e",
+		"name": "AtixLabs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post String",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"string\": \"Hola Mundo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3900/api/v1/string",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3900",
+					"path": [
+						"api",
+						"v1",
+						"string"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
