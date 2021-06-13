@@ -1,7 +1,7 @@
 # AtixLabs NodeJS
 
 ## Sobre la App
-Esta aplicación permite al ingresar un string, escribir en un archivo una cadena de bloques hasheados, a su vez encadenados por su prev_hash. 
+Esta aplicación permite al ingresar un string, escribir en un archivo una cadena de bloques hasheados, a su vez encadenados por su hash anterior. 
 
 ## Stack
 Node + Express 
