@@ -40,7 +40,7 @@ class ExpressServer {
 
     _routes() {
 
-        this.app.get("/gitflow", (req, res) => {
+        this.app.get("/test", (req, res) => {
             res.status(200).json({prueba: 'Test Ok'});
         });
 
