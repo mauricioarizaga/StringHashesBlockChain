@@ -1,12 +1,13 @@
-# AtixLabs NodeJS
-
 ## Sobre la App
-Esta aplicación permite al ingresar un string, escribir en un archivo una cadena de bloques hasheados, a su vez encadenados por su hash anterior. 
+
+Esta aplicación permite al ingresar un string, escribir en un archivo una cadena de bloques hasheados, a su vez encadenados por su hash anterior.
 
 ## Stack
-Node + Express 
+
+Node + Express
 
 ## Deploy 🚀
+
 ```
 git clone https://github.com/mauricioarizaga/atixLabsBlockChain.git
 
@@ -33,7 +34,6 @@ POST: http://localhost:3900/api/v1/string
 Url: http://localhost:3900/api/v1
 
 Swagger: http://localhost:3900/documentation
-
 
 ### Postman
 
